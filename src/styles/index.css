@@ -4,10 +4,11 @@
   --brand-light-: #ffc98c;
   --brand-gray-: #909394;
   --brand-white-: #dedddd;
+  --white-: #fffdfa;
 }
 
 .text-white {
-  columns: white;
+  color: white;
 }
 
 .navigation-bar__navbar {
@@ -52,6 +53,25 @@ body {
   width: 100%;
 }
 
+.brand-images__image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brand-images__title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.brand-images__image {
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 1px 1px 1px 1px grey;
+  background-color: var(--white-);
+  border-radius: 5px;
+}
+
 @media (min-width: 900px) {
   .page__body {
     padding: 0 200px;
@@ -61,5 +81,8 @@ body {
   }
   .about__titles-container {
     padding: 0 50px;
+  }
+  .brand-images__title {
+    margin-top: 100px;
   }
 }
