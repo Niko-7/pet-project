@@ -1,9 +1,17 @@
+:root {
+  --brand-blue-: #3b4862;
+  --brand-light-blue-: #39659b;
+  --brand-light-: #ffc98c;
+  --brand-gray-: #909394;
+  --brand-white-: #dedddd;
+}
+
 .text-white {
   columns: white;
 }
 
 .navigation-bar__navbar {
-  background-color: #3b4862;
+  background-color: var(--brand-blue-);
 }
 
 .navigation-bar__logo {
@@ -11,6 +19,11 @@
 }
 
 .navigation-bar__links:hover {
-  color: #ffc98c !important;
+  color: var(--brand-light-) !important;
   text-decoration: underline;
+}
+
+.home-page__body {
+  padding: 0 200px;
+  margin: auto;
 }

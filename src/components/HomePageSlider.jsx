@@ -1,10 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import imageOne from "../styles/images/home-page-slider-images/1.jpg";
-import imageTwo from "../styles/images/home-page-slider-images/1.jpg";
-import imageThree from "../styles/images/home-page-slider-images/1.jpg";
-import imageFour from "../styles/images/home-page-slider-images/1.jpg";
-import imageFive from "../styles/images/home-page-slider-images/1.jpg";
+import imageTwo from "../styles/images/home-page-slider-images/2.png";
+import imageThree from "../styles/images/home-page-slider-images/3.png";
+import imageFour from "../styles/images/home-page-slider-images/4.jpg";
+import imageFive from "../styles/images/home-page-slider-images/5.png";
 
 const responsive = {
   desktop: {
@@ -40,18 +40,13 @@ const HomePageSlider = () => {
       //   showDots={true}
       //   removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
     >
-      <div>
-        {images.map((image, index) => {
-          return (
-            <img
-              className="carousel_image_center"
-              src={image}
-              alt="product"
-              key={`carousel-image-${index}`}
-            />
-          );
-        })}
-      </div>
+      {images.map((image, index) => {
+        return (
+          <div key={`carousel-image-${index}`}>
+            <img className="carousel_image_center" src={image} alt="product" />
+          </div>
+        );
+      })}
     </Carousel>
   );
 };
