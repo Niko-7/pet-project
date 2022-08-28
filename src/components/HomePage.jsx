@@ -2,7 +2,7 @@ import HomePageSlider from "./HomePageSlider";
 
 const HomePage = () => {
   return (
-    <div className="home-page__body">
+    <div className="page__body">
       <HomePageSlider />
     </div>
   );

@@ -23,7 +23,43 @@
   text-decoration: underline;
 }
 
-.home-page__body {
-  padding: 0 200px;
+body {
+  background-color: var(--brand-white-);
+}
+
+.page__body {
   margin: auto;
+}
+
+.about__body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.about__titles-container {
+  margin-top: 50px;
+}
+
+.about__image-container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.about__image {
+  margin: auto;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .page__body {
+    padding: 0 200px;
+  }
+  .about__body {
+    padding-top: 150px;
+  }
+  .about__titles-container {
+    padding: 0 50px;
+  }
 }
