@@ -1,0 +1,16 @@
+.text-white {
+  columns: white;
+}
+
+.navigation-bar__navbar {
+  background-color: #3b4862;
+}
+
+.navigation-bar__logo {
+  height: 80px;
+}
+
+.navigation-bar__links:hover {
+  color: #ffc98c !important;
+  text-decoration: underline;
+}
