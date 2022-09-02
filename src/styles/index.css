@@ -97,8 +97,47 @@ body {
 .back-to-top-button__button {
   background-color: var(--brand-light-blue-);
   color: white;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer__body {
+  background-color: var(--brand-blue-);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-icons__container {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brand-white-);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.footer-icons__container:hover {
+  opacity: 0.8;
+}
+
+.footer__icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__copyright-text {
+  color: var(--brand-white-);
 }
 
 @media (min-width: 900px) {
