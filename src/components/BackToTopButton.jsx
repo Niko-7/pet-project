@@ -18,8 +18,8 @@ const BackToTopButton = () => {
   return (
     <>
       {scrollPosition > 300 && (
-        <div className="home-page-nav__container back-to-top-button__container">
-          <a href="#root" className="home-page-nav__link">
+        <div className="back-to-top-button__container">
+          <a href="#root" className="home-page-nav__link ">
             <button className="back-to-top-button__button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
