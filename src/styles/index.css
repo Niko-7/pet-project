@@ -64,6 +64,7 @@ body {
 .brand-images__title {
   margin-top: 50px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .brand-images__image {
@@ -72,6 +73,8 @@ body {
   box-shadow: 1px 1px 1px 1px grey;
   background-color: var(--white-);
   border-radius: 5px;
+  width: 150px;
+  height: 150px;
 }
 
 .home-page-nav__container {
@@ -178,9 +181,6 @@ body {
 }
 
 @media (min-width: 900px) {
-  /* .page__body {
-    padding: 0 200px;
-  } */
   #brands {
     padding: 0 200px;
   }
@@ -194,7 +194,6 @@ body {
     margin-top: 100px;
   }
   .brand-images__image {
-    padding: 50px;
     margin: 20px;
   }
   .home-page-nav__icon-text {
