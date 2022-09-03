@@ -9,6 +9,7 @@
 
 .text-white {
   color: white;
+  font-size: 20px !important;
 }
 
 .navigation-bar__navbar {
@@ -82,7 +83,10 @@ body {
 .home-page-nav__link {
   color: black;
   text-decoration: none;
-  padding: 0px 5px;
+  padding: 5px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .home-page-nav__link:hover {
@@ -92,6 +96,9 @@ body {
 
 .home-page-nav__icon-container {
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .home-page-nav__icon-text {
@@ -166,6 +173,10 @@ body {
   padding: 10px;
 }
 
+.terms__container {
+  padding: 20px 50px;
+}
+
 @media (min-width: 900px) {
   /* .page__body {
     padding: 0 200px;
@@ -191,5 +202,8 @@ body {
   }
   .home-page-nav__link {
     padding: 0px 20px;
+  }
+  .terms__container {
+    padding: 50px 200px;
   }
 }

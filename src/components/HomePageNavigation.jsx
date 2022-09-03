@@ -11,13 +11,13 @@ const HomePageNavigation = () => {
     <>
       <div className="home-page-nav__container">
         <a href="#brands" className="home-page-nav__link">
-          <div className="home-page-nav__link ">
+          <div className="home-page-nav__icon-container">
             <img src={brand} alt="brand icon" />
           </div>
           <div className="home-page-nav__icon-text">Brands</div>
         </a>
         <a href="#cats" className="home-page-nav__link">
-          <div className="home-page-nav__link">
+          <div className="home-page-nav__icon-container">
             <img src={cat} alt="cat icon" />
           </div>
           <div className="home-page-nav__icon-text">Cats</div>
@@ -50,7 +50,7 @@ const HomePageNavigation = () => {
           <div className="home-page-nav__icon-container">
             <img src={hamster} alt="hamster icon" />
           </div>
-          <div className="home-page-nav__icon-text">Small Animals</div>
+          <div className="home-page-nav__icon-text">Rodents</div>
         </a>
       </div>
     </>
