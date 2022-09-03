@@ -17,12 +17,15 @@ const NavigationBar = () => {
             />
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/" className="text-white navigation-bar__links">
+            <Nav.Link
+              href="/"
+              className="text-white navigation-bar__links text-hover__effect"
+            >
               Home
             </Nav.Link>
             <Nav.Link
               href="/about"
-              className="text-white navigation-bar__links"
+              className="text-white navigation-bar__links text-hover__effect"
             >
               About
             </Nav.Link>
