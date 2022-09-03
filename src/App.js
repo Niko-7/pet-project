@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 import NavigationBar from "./components/NavigationBar";
 import SubFooter from "./components/SubFooter";
+import Terms from "./components/Terms.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/" element={<HomePage />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
         <SubFooter />
         <Footer />
