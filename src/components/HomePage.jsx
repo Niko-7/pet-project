@@ -1,10 +1,10 @@
 import BackToTopButton from "./BackToTopButton";
 import BrandImages from "./BrandImages";
-import Cats from "./Cats";
-import Dogs from "./Dogs";
 import HomePageNavigation from "./HomePageNavigation";
 import HomePageSlider from "./HomePageSlider";
-import Reptiles from "./Reptiles";
+// import Cats from "./Cats";
+// import Dogs from "./Dogs";
+// import Reptiles from "./Reptiles";
 
 const HomePage = () => {
   return (
@@ -12,9 +12,9 @@ const HomePage = () => {
       <HomePageNavigation />
       <HomePageSlider />
       <BrandImages />
-      <Cats />
+      {/* <Cats />
       <Dogs />
-      <Reptiles />
+      <Reptiles /> */}
       <BackToTopButton />
     </div>
   );
