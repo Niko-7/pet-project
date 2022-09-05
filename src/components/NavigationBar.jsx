@@ -21,13 +21,13 @@ const NavigationBar = () => {
               href="/"
               className="text-white navigation-bar__links text-hover__effect"
             >
-              Home
+              ΑΡΧΙΚΗ
             </Nav.Link>
             <Nav.Link
               href="/about"
               className="text-white navigation-bar__links text-hover__effect"
             >
-              About
+              KΑΤΑΣΤΗΜΑ
             </Nav.Link>
           </Nav>
         </Container>

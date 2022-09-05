@@ -3,7 +3,7 @@ const SubFooter = () => {
     <>
       <div className="sub-footer__body">
         <a href="/terms" className="sub-footer__link">
-          Terms & Conditions
+          Oροι και Προϋποθέσεις
         </a>
       </div>
     </>

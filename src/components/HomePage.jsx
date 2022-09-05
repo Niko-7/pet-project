@@ -1,5 +1,7 @@
 import BackToTopButton from "./BackToTopButton";
 import BrandImages from "./BrandImages";
+import FacebookFeed from "./FacebookFeed";
+import GoogleReviews from "./GoogleReviews";
 import HomePageNavigation from "./HomePageNavigation";
 import HomePageSlider from "./HomePageSlider";
 // import Cats from "./Cats";
@@ -12,6 +14,8 @@ const HomePage = () => {
       <HomePageNavigation />
       <HomePageSlider />
       <BrandImages />
+      <FacebookFeed />
+      <GoogleReviews />
       {/* <Cats />
       <Dogs />
       <Reptiles /> */}
