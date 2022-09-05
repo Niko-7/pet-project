@@ -1,4 +1,3 @@
-import imageOne from "../styles/images/brand-images/1.png";
 import imageTwo from "../styles/images/brand-images/2.png";
 import imageThree from "../styles/images/brand-images/3.png";
 import imageFour from "../styles/images/brand-images/4.png";
@@ -24,7 +23,6 @@ import imageTwentyThree from "../styles/images/brand-images/23.png";
 import imageTwentyFour from "../styles/images/brand-images/24.svg";
 
 const images = [
-  imageOne,
   imageTwo,
   imageThree,
   imageFour,
@@ -53,7 +51,7 @@ const images = [
 const BrandImages = () => {
   return (
     <div id="brands">
-      <h2 className="brand-images__title">Our Brands</h2>
+      <h2 className="brand-images__title">Οι μάρκες μας</h2>
       <div className="brand-images__image-container">
         {images.map((image, index) => {
           return (
